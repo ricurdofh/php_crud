@@ -1,0 +1,9 @@
+--Datos de acceso al sistema
+
+Usuario: admin
+Password: 12345
+
+--Cambiar el archivo variables.php con el url del servidor donde se pruebe.
+
+-- Cambiar los datos locales de acceso a mysql en admin/dbFunctions.php en la linea
+$db = new PDO('mysql:host=localhost;dbname=intotechs;charset=utf8', 'root', '123');	

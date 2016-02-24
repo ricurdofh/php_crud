@@ -1,0 +1,534 @@
+/*::::::::::::::::::LOGIN::::::::::::::::::::::*/
+.info:last-child, .mini-infos:last-child {
+	font-size: 21px;
+    margin-left: 19px;
+}
+.mini-infos {
+	background-size: 31px auto;
+	min-height: 0.5em !important;
+}
+.logo{
+    text-align: center;
+    display: block;
+    margin-bottom: 150px !important;
+    margin-left: -225px !important;
+}
+.logo_header{
+	background: url("../images/logo.jpg") no-repeat scroll 0 0 / 65px auto transparent;
+    height: 72px;
+    margin-left: 214px;
+    margin-top: 1px;
+}
+html.dark {
+	background-color: #244B79 !important;
+}
+.no_usuario{
+    color: #FF0000;
+    text-shadow: white 0em 0.2em 0.5em;
+    font-size: 18px;
+    margin-top: 5px;
+}
+/*::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::ADMINISTRADOR:::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::*/
+.logo_admin{
+    margin-left: 10px;
+    margin-top: 1px;
+}
+.posicion_sup{
+	float: right;
+}
+#skin-name {
+    color: rgba(255, 255, 255, 0.75);
+    display: block !important;
+    margin: 1.4em 3.7em 1em 0em !important;
+}
+/*::::::::::::::::ICONOS:::::::::::::::::::*/
+.nav > ul > li.vuelos, nav > ul > li.vuelos > a {
+	background-image: url("../images/icons/icono_avion.png") !important;
+	margin-left: 1px;
+    margin-top: 3px;
+	}
+
+nav > ul > li.vuelos, nav > ul > li.vuelos > a {
+    background-image: url("../images/icons/icono_avion.png");
+}
+
+.nav > ul > li.equipaje, nav > ul > li.equipaje > a {
+    background-image: url("../images/icons/icono_equipaje.png") !important;
+	
+}
+nav > ul > li.equipaje, nav > ul > li.equipaje > a {
+    background-image: url("../images/icons/icono_equipaje.png");
+}
+.nav > ul > li.pax, nav > ul > li.pax > a {
+    background-image: url("../images/icons/icono_pax.png") !important;
+}
+nav > ul > li.pax, nav > ul > li.pax > a {
+    background-image: url("../images/icons/icono_pax.png");
+}
+.nav > ul > li.incidentes, nav > ul > li.incidentes > a {
+    background-image: url("../images/icons/icono_incidentes.png") !important;
+	margin-top: 4px;
+}
+nav > ul > li.incidentes, nav > ul > li.incidentes > a {
+    background-image: url("../images/icons/icono_incidentes.png");
+}
+.nav > ul > li.reportes, nav > ul > li.reportes > a {
+    background-image: url("../images/icons/icono_reportes.png") !important;
+}
+nav > ul > li.reportes, nav > ul > li.reportes > a {
+    background-image: url("../images/icons/icono_reportes.png");
+}
+/*::::::::::::::COLORES::::::::::::::::::*/
+article h1 {
+	color:#FFFFFF !important;
+}
+html {
+    background: none repeat scroll 0 0 #244B79 !important;
+}
+.favorites > li > a {
+	color: #FFFFFF !important;
+}
+.favorites > li > a small {
+    color: #FFFFFF !important;
+}
+.mini-menu > li > a {
+    color: #244B79 !important
+	;
+}
+.favorites > li {
+    border-top: 1px dotted #FFFFFF !important;
+}
+.grey-bg {
+    background-color: #FFFFFF !important;
+}
+.form legend, .legend, .mini-menu {
+    background: -moz-linear-gradient(center top , #FFFFFF, #E7E7E7) repeat scroll 0 0 transparent !important;
+    color: #244B79 !important;
+}
+
+#sub-nav {
+	background:none !important;
+	border-top: medium none !important;
+}
+.boton_subir{
+	background: none repeat scroll 0 0 #244B79;
+}
+.boton_subir:hover{
+	background: none repeat scroll 0 0 #547396;
+}
+.block-controls {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+}
+.alineando_td{
+	text-align:center !important;
+}
+
+.block-content .no-margin:last-child, .block-content .message.no-margin:last-child {
+	font-size:11px;
+}
+.table thead th, .table thead td, .head {
+    background: none repeat scroll 0 0 #1F72B1 !important;
+}
+
+.table tbody td {
+    background: none repeat scroll 0 0 #E7E7E7 !important;
+}
+
+.table tbody tr.even td {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+}
+.table tbody tr:hover th, .table tbody tr:hover .th, .table tbody tr:hover td {
+    background: none repeat scroll 0 0 #4F81BD !important;
+	color:#ffffff;
+}
+.block-footer {
+    background: none repeat scroll 0 0 #1F72B1 !important;
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+.message {
+    background-color: #93A6BD !important;
+}
+
+.block-content.no-padding .message.no-margin, .block-content .no-margin > .message.no-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+.no-margin .table + .no-margin, .with-head.no-margin + .no-margin {
+    margin-top: -1.667em;
+}
+.block-content .message.no-margin, .block-content.no-padding .message {
+    border-radius: 0 0 0 0;
+    border-width: 1px 0;
+}
+.block-content .message.no-margin {
+    margin: 0 -1.667em 1.667em;
+}
+.block-content .no-margin > .no-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+.block-content .message {
+    box-shadow: none;
+}
+.block-content .no-margin {
+    margin-left: -1.667em;
+    margin-right: -1.667em;
+}
+section .message {
+    margin-bottom: 1.667em;
+}
+.message li, div.message, p.message {
+    background-image: url("../images/icons/fugue/information-ocre.png") !important;
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+.form label, .form .label {
+text-align: left !important;
+}
+.alinea_field{
+	text-align:center !important;
+}
+.activo {
+    background: -moz-linear-gradient(left center , rgba(109, 192, 229, 0), rgba(109, 192, 229, 0.8) 25%, #6DC0E5 50%, rgba(109, 192, 229, 0.8) 75%, rgba(109, 192, 229, 0)) repeat scroll 0 0 transparent !important;
+	background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgba(109, 192, 229, 0)), to(rgba(109, 192, 229, 0)), color-stop(.25, rgba(109, 192, 229, 0.8)), color-stop(.5, rgba(109, 192, 229, 1)), color-stop(.75, rgba(109, 192, 229, 0.8))) !important;
+    transition-duration: 100ms
+}
+.column-sort {
+    float: right !important;
+}
+.form_restultado {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 1px none #89BAD3 !important;
+    color: #000000 !important;
+}
+#breadcrumb li {
+    background: none !important;
+}
+button img, .big-button img {
+margin-bottom: -7px !important;
+margin-left: 11px;
+}
+.boton_css{
+    background: -moz-linear-gradient(center top , white, #72C6E4 4%, #0C5FA5) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear,left top, left bottom,from(white),to(#0c5fa5),color-stop(0.03, #72c6e4));
+    border-color: #50A3C8 #297CB4 #083F6F;
+    border-image: none;
+    border-radius: 0.333em 0.333em 0.333em 0.333em;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.167em;
+    font-weight: bold;
+    line-height: 1.429em;
+    padding: 0.286em 1em 0.357em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    background-image: url("../images/old-browsers-bg/button-element-bg.png");
+}
+.boton_css:hover {
+    border-color: #1eafdc #1193d5 #035592;background: #057fdb url(../images/old-browsers-bg/button-element-hover-bg.png) repeat-x left top;background: -moz-linear-gradient(top,white,#2bcef3 4%,#057fdb);background: -webkit-gradient(linear,left top, left bottom,from(white),to(#057fdb),color-stop(0.03, #2bcef3));
+}
+
+.linea_tabla {
+	border: 1px solid #527195;
+    width: 100%;
+    float: left;
+}
+.linea_tabla2 {
+	border: 0.1em solid #999999;
+	width: 100%;
+	float: left;
+}
+.hover_tr:hover {
+	background: #C9DBF0;
+	color: #FFFFFF;
+}
+.campos_activar {
+	background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    height: 18px;
+    padding: 0 !important;
+    float: left;
+    font-weight: bold;
+    color: #244B79 !important;
+}
+
+.campos_activar2 {
+	background: none repeat scroll 0 0 #FFFFFF !important;
+    float: left;
+    height: 18px;
+    padding: 0 !important;
+}
+.campos_activar3 {
+    background: none repeat scroll 0 0 red !important;
+    color: white !important;
+    float: left;
+    height: 18px;
+    padding: 0 !important;
+}
+.acciones {
+	float: left;
+	margin-left: 16px;
+	margin-top: 6px;
+}
+.editCampoAerolinea {
+	float: left;
+	visibility: hidden;
+}
+.editCampoAerolinea2 {
+	float: left;
+	visibility: visible;
+}
+
+.editCampoCondicion {
+	float: left;
+	visibility: hidden;
+}
+.editCampoCondicion2 {
+	float: left;
+	visibility: visible;
+}
+.editCampoOrigen {
+	float: left;
+	visibility: hidden;
+}
+.editCampoOrigen2 {
+	float: left;
+	visibility: visible;
+}
+.editCampoDestino {
+	float: left;
+	visibility: hidden;
+}
+.editCampoDestino2 {
+	float: left;
+	visibility: visible;
+}
+.editCampoEstacion {
+	float: left;
+	visibility: hidden;
+}
+.editCampoEstacion2 {
+	float: left;
+	visibility: visible;
+}
+.editCampoEstado {
+	float: left;
+	visibility: hidden;
+}
+.editCampoEstado2 {
+	float: left;
+	visibility: visible;
+}
+.editCampoNacionalidad {
+	float: left;
+	visibility: hidden;
+}
+.editCampoNacionalidad2 {
+	float: left;
+	visibility: visible;
+}
+.editCampoNacionalidad {
+	float: left;
+	visibility: hidden;
+}
+.editCampoNacionalidad2 {
+	float: left;
+	visibility: visible;
+}
+.editCampoNacionalidad {
+	float: left;
+	visibility: hidden;
+}
+.editCampoNacionalidad2 {
+	float: left;
+	visibility: visible;
+}
+.editCampoNumerodevuelo {
+	float: left;
+	visibility: hidden;
+}
+.editCampoNumerodevuelo2 {
+	float: left;
+	visibility: visible;
+}
+.editCampoTipodencidente {
+	float: left;
+	visibility: hidden;
+}
+.editCampoTipodencidente2 {
+	float: left;
+	visibility: visible;
+}
+.editCampoTurno {
+	float: left;
+	visibility: hidden;
+}
+.editCampoTurno2 {
+	float: left;
+	visibility: visible;
+}
+
+.titulo_tabla {
+	font-size: 1.3em;
+}
+.form legend a, .legend a {
+    background: none !important;
+    
+}
+/*:::::::::::::::::::::::::::::::::
+ * :::::::FECHA DATEPICkR:::::::::
+ * :::::::::::::::::::::::::::::*/
+
+.calendar {
+	background-color: #2888BB;
+    border: 1px solid #2888BB;
+    border-radius: 4px 4px 4px 4px;
+    color: #333333;
+    font-family: 'Trebuchet MS',Tahoma,Verdana,Arial,sans-serif;
+    font-size: 0.9em;
+    height: 19.1em;
+    margin-top: 12px;
+    padding: 0.2em;
+    width: 18em;
+}
+
+.calendar .months {
+   	background-color: #065184;
+    border: 1px solid #0E5F92;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    height: 17px;
+    padding: 0.2em;
+    text-align: center;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+	padding: 0;
+}
+
+.calendar .prev-month {
+	float: left;
+}
+
+.calendar .next-month {
+	float: right;
+}
+
+.calendar .current-month {
+	margin: 0 auto;
+}
+
+.calendar .months .prev-month,
+.calendar .months .next-month {
+	color: #FFF;
+	text-decoration: none;
+	padding: 0 0.4em;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.calendar .months .prev-month:hover,
+.calendar .months .next-month:hover {
+	background-color: #FDF5CE;
+	color: #C77405;
+}
+
+.calendar table {
+	border-collapse: collapse;
+    font-size: 1.3em;
+    height: 12.3em;
+    width: 100%;
+}
+
+.calendar th {
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.calendar td {
+	text-align: right;
+	padding: 1px;
+	width: 14.3%;
+}
+
+.calendar td span {
+	background-color: #FFFFFF;
+    border: 0.1px solid #1C94C4;
+    color: #3083BC;
+    cursor: pointer;
+    display: block;
+    padding: 0.2em;
+    text-decoration: none;
+}
+
+.calendar td span:hover {
+	background-color: #B3DAF5;
+    color: #065184;
+}
+
+.calendar td.today span {
+	background-color: #065184;
+    border: 1px solid #0E5F92;
+    color: #FFFFFF;
+}
+.aviso{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
